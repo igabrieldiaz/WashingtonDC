@@ -9,7 +9,7 @@ body {
   background-position: top center;
 }
 a:link {
-  border: 2px solid red;
+  border: 2px solid black;
   border-radius: 30px;
   padding: 10px 20px;
   text-align: center;
@@ -40,6 +40,7 @@ a {
 .dcpngs {
   margin: auto;
   width: 75%;
+  overflow: visible;
 }
 .dcpngs img {
   margin: auto;
@@ -48,14 +49,17 @@ a {
 .dcpngs div {
   margin-top: 150px;
   margin-bottom: 150px;
+  overflow: visible;
 }
 .tooltiptext {
   visibility: hidden;
-  width: 15%;
-  background-color: orangered;
+  width: 20px;
+  background-color: black;
+  color: #F1EEE0;
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
+  padding: 15px;
+
 }
 .dcpeople:hover .tooltiptext {
   visibility: visible;
@@ -69,6 +73,15 @@ a {
 .dcedu:hover .tooltiptext {
   visibility: visible;
 }
+.historicalCensus:hover .tooltiptext {
+  visibility: visible;
+}
+.percentageComparison:hover .tooltiptext {
+  visibility: visible;
+}
+.senate:hover .tooltiptext {
+  visibility: visible;
+}
 .topnav {
   margin: auto;
   width: 50%;
@@ -76,8 +89,7 @@ a {
   padding-bottom: 10%;
 
 }
-.aboutText {
-  background-color: red;
+.homeText {
   width: 50%;
   padding: 20px 20px;
   margin: auto;
