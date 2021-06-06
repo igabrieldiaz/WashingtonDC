@@ -31,10 +31,19 @@
   $(function() {
 	$( "#rosaparks" ).draggable({stack: 'div'});
 
-  });$(function() {
+  });
+  
+  $(function() {
 	$( "#voting" ).draggable({stack: 'div'});
 
-  });$(function() {
+  });
+  
+  $(function() {
 	$( "#votingmarch" ).draggable({stack: 'div'});
+
+  });
+
+  $(function() {
+	$( "#blm" ).draggable({stack: 'div'});
 
   });
