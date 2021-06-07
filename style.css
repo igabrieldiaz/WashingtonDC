@@ -8,6 +8,7 @@ body {
   background-size: cover;
   background-position: top center;
 }
+
 a:link {
   border: 2px solid black;
   border-radius: 30px;
@@ -98,7 +99,13 @@ a {
   width: 50%;
   padding: 20px 20px;
   margin: auto;
-  font-size: 150%;
+  font-size: 200%;
+}
+.thoughtsText {
+  width: 50%;
+  padding: 20px 20px;
+  margin: auto;
+  font-size: 200%;
 }
 
 #lincoln,
