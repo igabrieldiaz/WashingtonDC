@@ -47,8 +47,10 @@ a {
   overflow: visible;
 }
 .dcpngs img {
-  margin: auto;
-  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 .dcpngs div {
   margin-top: 150px;
@@ -86,6 +88,9 @@ a {
   visibility: visible;
 }
 .senate:hover .tooltiptext {
+  visibility: visible;
+}
+.federalTaxes:hover .tooltiptext {
   visibility: visible;
 }
 .topnav {
